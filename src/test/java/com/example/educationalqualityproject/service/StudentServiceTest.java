@@ -52,7 +52,7 @@ class StudentServiceTest {
         "teste@educacao.org, true",
         "aluno@gmail.com, true",
         "sem_arroba.com, false",
-        "email_invalido@escola.edu, true",
+        "email_valido@escola.edu, true",
         "null, false"
     })
     void validarEmails(String email, boolean esperado) {
