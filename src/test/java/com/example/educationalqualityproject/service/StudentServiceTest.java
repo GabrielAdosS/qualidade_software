@@ -61,7 +61,6 @@ class StudentServiceTest {
         
         boolean resultado = studentService.isValidEmail(emailToTest);
         
-        assertEquals(esperado, resultado, "Falha na validação para o email: " + email)
-        dasd
+        assertEquals(esperado, resultado, "Falha na validação para o email: " + email);
     }
 }
